@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+  </head>
+  <body>
+    <form action="/submit.php" method="post">
+      <div>
+        <label for="fn">Full Name:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Fullname" id="fn" />
+      </div>
+      <br>
+      <div>
+        <label for="un">Username:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Username" id="un" />
+      </div>
+      <br>
+      <div>
+        <label for="ps">Password:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" name="Password" id="ps">
+      </div>
+      <br>
+      <div>
+        <label for="rps">Re Password:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" name="RePassword" id="rps">
+      </div>
+      <br>
+      <div>
+        <label for="ads">Address:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Address" id="ads">
+      </div>
+      <br>
+      <div>
+        <label for="age">Age:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Age" id="age">
+      </div>
+      <br>
+      <div>
+        <label for="gnr">Gender: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="Gender" id="gnr">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Other</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <button type="submit" value="submit">Save</button>
+      </div>
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+  </head>
+  <style>
+    th {
+      width: 14rem;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>
+          <label for="fn">Full Name:</label>
+        </th>
+
+        <td>
+          <input type="text" name="Fullname" id="fn" value="Vincent Maverick Durano"/>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <label for="un">Username:</label>
+        </th>
+
+        <td>
+          <input type="text" name="Username" id="un" value="Vinz" />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="ps">Password: </label>
+        </th>
+
+        <td>
+          <input type="password" name="Password" id="ps" value="12345678" />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="rps">Re Password:</label>
+        </th>
+
+        <td>
+          <input type="password" name="RePassword" id="rps" value="12345678" />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="ads">Address:</label>
+        </th>
+
+        <td>
+          <input type="text" name="Address" id="ads" value="Cebu, Philippines"/>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="age">Age:</label>
+        </th>
+
+        <td>
+          <input type="number" name="Age" id="age" value="22"/>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="gnr">Gender: </label>
+        </th>
+
+        <td>
+          <select name="Gender" id="gnr">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <input type="button" value="Save" />
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
